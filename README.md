@@ -10,7 +10,7 @@
   - `npm run build` to build
   - `npm run start` to start dev server
 - serve setup closely follows Esbuild docs [docs](https://esbuild.github.io/api/#serve)
-- out of box working with live reload [docs](https://esbuild.github.io/api/#live-reload)
+- live reload works out of the box [docs](https://esbuild.github.io/api/#live-reload)
 - only five files (excluding dist, and node_modules, gitignore)
   - package.json
   - package-lock.json
