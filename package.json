@@ -1,0 +1,16 @@
+{
+  "name": "my-react-app",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "esbuild --bundle --minify --sourcemap --outdir=dist src/index.jsx",
+    "start": "esbuild --bundle --outdir=www/js --servedir=www --watch src/index.jsx"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.3"
+  }
+}
