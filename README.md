@@ -1,4 +1,4 @@
-# Cam's Minimal React App
+# Cam's Minimal React App - CMRA
 
 ## An Alternative to CRA: Create React App
 
